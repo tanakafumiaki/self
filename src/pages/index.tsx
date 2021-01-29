@@ -1,3 +1,7 @@
 import React from 'react'
+import { NextPage } from 'next'
 
-export default () => (<div>Hello World</div>)
+const Page: NextPage = props => (
+    <div>Welcome to next.js!</div>
+)
+export default Page
